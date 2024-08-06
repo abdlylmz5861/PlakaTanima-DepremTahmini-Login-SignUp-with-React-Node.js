@@ -12,7 +12,6 @@ Bu proje, plakaları tanıyan, deprem tahminleri yapan ve kullanıcı giriş/ç�
   - [Frontend Kurulumu](#frontend-kurulumu)
   - [Python Servis Kurulumu](#python-servis-kurulumu)
 - [Kullanım](#kullanım)
-- [Proje Yapısı](#proje-yapısı)
 
 ## Özellikler
 
@@ -83,24 +82,3 @@ Projeyi yerel makinenize klonladıktan sonra aşağıdaki adımları izleyerek k
 1. **Plaka Tanıma**: Uygulamanın arayüzünden plaka tanıma özelliğini kullanarak araç plakalarını tanıyabilirsiniz.
 2. **Deprem Tahmini**: Deprem tahmini bölümünden, güncel deprem verilerini analiz edip tahminlerde bulunabilirsiniz.
 3. **Kullanıcı Giriş/Çıkış**: Giriş yaparak veya kayıt olarak uygulamanın kullanıcı yönetim sistemini kullanabilirsiniz.
-
-## Proje Yapısı
-
-```plaintext
-.
-├── server
-│   ├── src
-│   ├── package.json
-│   └── ...
-├── client
-│   ├── src
-│   ├── public
-│   ├── package.json
-│   └── ...
-├── python_service
-│   ├── main.py
-│   ├── requirements.txt
-│   └── ...
-└── README.md
-```
-
