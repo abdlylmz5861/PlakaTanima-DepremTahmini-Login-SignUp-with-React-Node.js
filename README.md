@@ -1,14 +1,14 @@
 
-# Plaka Tanıma ve Deprem Tahmini Sistemi
+## Plaka Tanıma ve Deprem Tahmini Sistemi
 
 Bu proje, plakaları tanıyan, deprem tahminleri yapan ve kullanıcı giriş/çıkış işlemlerini yöneten bir sistemdir. React, Node.js ve Python kullanılarak geliştirilmiştir.
 Proje 5 kişi tarafından yapılmıştır.Diğer çalışma arkadaşlarının isimleri ve github linkleri aşağıdadır.
 
--[Abdullah Yılmaz](https://github.com/abdlylmz5861)
--[Erdem Muslu]()
--[Mustafa İlhan](https://github.com/mustafailhann)
--[Ali Koç]()
--[Gökay Sardoğan]()
+- [Abdullah Yılmaz](https://github.com/abdlylmz5861)
+- [Erdem Muslu]()
+- [Mustafa İlhan](https://github.com/mustafailhann)
+- [Ali Koç]()
+- [Gökay Sardoğan]()
 
 ## İçindekiler
 
