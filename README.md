@@ -9,7 +9,7 @@ Proje 5 kişi tarafından yapılmıştır. Diğer çalışma arkadaşlarının i
 - [Erdem Muslu](https://github.com/erdm38)
 - [Mustafa İlhan](https://github.com/mustafailhann)
 - [Ali Koç](https://github.com/alikoc107)
-- [Gökay Sardoğan]()
+- [Gökay Sardoğan](https://github.com/seraph-0)
 
 ## İçindekiler
 
