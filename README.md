@@ -1,61 +1,125 @@
+
 # Plaka Tanıma ve Deprem Tahmini Sistemi
+
 Bu proje, plakaları tanıyan, deprem tahminleri yapan ve kullanıcı giriş/çıkış işlemlerini yöneten bir sistemdir. React, Node.js ve Python kullanılarak geliştirilmiştir.
 
-İçindekiler
-Özellikler
-Gereksinimler
-Kurulum
-Kullanım
+## İçindekiler
 
-Özellikler
-Plaka Tanıma: Görüntülerdeki plakaları tanıyarak veri tabanına kaydeder.
-Deprem Tahmini: Deprem verilerini analiz ederek tahminlerde bulunur.
-Kullanıcı Giriş/Çıkış: Kullanıcıların kayıt olmasını ve giriş yapmasını sağlar.
-Gereksinimler
+- [Özellikler](#özellikler)
+- [Gereksinimler](#gereksinimler)
+- [Kurulum](#kurulum)
+  - [Backend Kurulumu](#backend-kurulumu)
+  - [Frontend Kurulumu](#frontend-kurulumu)
+  - [Python Servis Kurulumu](#python-servis-kurulumu)
+- [Kullanım](#kullanım)
+- [Proje Yapısı](#proje-yapısı)
+- [Katkıda Bulunma](#katkıda-bulunma)
+- [Lisans](#lisans)
+
+## Özellikler
+
+- **Plaka Tanıma**: Görüntülerdeki plakaları tanıyarak veri tabanına kaydeder.
+- **Deprem Tahmini**: Deprem verilerini analiz ederek tahminlerde bulunur.
+- **Kullanıcı Giriş/Çıkış**: Kullanıcıların kayıt olmasını ve giriş yapmasını sağlar.
+
+## Gereksinimler
+
 Bu projeyi çalıştırmak için aşağıdaki yazılımlara ihtiyacınız olacak:
 
-Node.js
-Python
-MongoDB
-Kurulum
+- [Node.js](https://nodejs.org/)
+- [Python](https://www.python.org/)
+- [MongoDB](https://www.mongodb.com/)
+
+## Kurulum
+
 Projeyi yerel makinenize klonladıktan sonra aşağıdaki adımları izleyerek kurabilirsiniz.
 
-Backend Kurulumu
-Proje dizinine gidin ve gerekli paketleri yükleyin:
+### Backend Kurulumu
 
-sh
-Kodu kopyala
-cd server
-npm install
-Ortam değişkenlerinizi ayarlayın:
+1. Proje dizinine gidin ve gerekli paketleri yükleyin:
 
-Server'ı başlatın:
+    ```sh
+    cd server
+    npm install
+    ```
 
-sh
-Kodu kopyala
-npm start
+2. Ortam değişkenlerinizi ayarlayın:
 
-Frontend Kurulumu
-Proje dizinine gidin ve gerekli paketleri yükleyin:
+    ```sh
+    cp .env.example .env
+    ```
 
-sh
-Kodu kopyala
-cd client
-npm install
-Uygulamayı başlatın:
+3. Server'ı başlatın:
 
-sh
-Kodu kopyala
-npm run dev
-Python Servis Kurulumu
-Gerekli paketleri yükleyin:
+    ```sh
+    npm start
+    ```
 
-sh
-Kodu kopyala
-pip install 
-Python servislerini başlatın:
+### Frontend Kurulumu
 
-Kullanım
-Plaka Tanıma: Uygulamanın arayüzünden plaka tanıma özelliğini kullanarak araç plakalarını tanıyabilirsiniz.
-Deprem Tahmini: Deprem tahmini bölümünden, güncel deprem verilerini analiz edip tahminlerde bulunabilirsiniz.
-Kullanıcı Giriş/Çıkış: Giriş yaparak veya kayıt olarak uygulamanın kullanıcı yönetim sistemini kullanabilirsiniz.
+1. Proje dizinine gidin ve gerekli paketleri yükleyin:
+
+    ```sh
+    cd client
+    npm install
+    ```
+
+2. Uygulamayı başlatın:
+
+    ```sh
+    npm run dev
+    ```
+
+### Python Servis Kurulumu
+
+1. Gerekli paketleri yükleyin:
+
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+2. Python servislerini başlatın:
+
+    ```sh
+    python main.py
+    ```
+
+## Kullanım
+
+1. **Plaka Tanıma**: Uygulamanın arayüzünden plaka tanıma özelliğini kullanarak araç plakalarını tanıyabilirsiniz.
+2. **Deprem Tahmini**: Deprem tahmini bölümünden, güncel deprem verilerini analiz edip tahminlerde bulunabilirsiniz.
+3. **Kullanıcı Giriş/Çıkış**: Giriş yaparak veya kayıt olarak uygulamanın kullanıcı yönetim sistemini kullanabilirsiniz.
+
+## Proje Yapısı
+
+```plaintext
+.
+├── server
+│   ├── src
+│   ├── package.json
+│   └── ...
+├── client
+│   ├── src
+│   ├── public
+│   ├── package.json
+│   └── ...
+├── python_service
+│   ├── main.py
+│   ├── requirements.txt
+│   └── ...
+└── README.md
+```
+
+## Katkıda Bulunma
+
+Katkıda bulunmak isterseniz, lütfen bir pull request gönderin. Her türlü katkı ve geri bildirim değerlidir.
+
+1. Fork yapın
+2. Yeni bir dal oluşturun (`git checkout -b yeni-ozellik`)
+3. Değişikliklerinizi yapın ve commit edin (`git commit -am 'Yeni özellik ekle'`)
+4. Dalınıza push yapın (`git push origin yeni-ozellik`)
+5. Bir pull request açın
+
+## Lisans
+
+Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakabilirsiniz.
