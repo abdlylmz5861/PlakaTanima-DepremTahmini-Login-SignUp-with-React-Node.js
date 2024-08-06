@@ -1,4 +1,4 @@
-Plaka Tanıma ve Deprem Tahmini Sistemi
+#Plaka Tanıma ve Deprem Tahmini Sistemi
 Bu proje, plakaları tanıyan, deprem tahminleri yapan ve kullanıcı giriş/çıkış işlemlerini yöneten bir sistemdir. React, Node.js ve Python kullanılarak geliştirilmiştir.
 
 İçindekiler
