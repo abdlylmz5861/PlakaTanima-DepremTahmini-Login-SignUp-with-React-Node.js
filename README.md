@@ -28,6 +28,7 @@ Bu projeyi çalıştırmak için aşağıdaki yazılımlara ihtiyacınız olacak
 - [Node.js](https://nodejs.org/)
 - [Python](https://www.python.org/)
 - [MongoDB](https://www.mongodb.com/)
+- [PytesseractOCR](https://github.com/UB-Mannheim/tesseract/wiki)
 
 ## Kurulum
 
@@ -68,13 +69,14 @@ Projeyi yerel makinenize klonladıktan sonra aşağıdaki adımları izleyerek k
 1. Gerekli paketleri yükleyin:
 
     ```sh
-    pip install -r requirements.txt
-    ```
-
-2. Python servislerini başlatın:
-
-    ```sh
-    python main.py
+    pip install opencv-python-headless
+    pip install numpy
+    pip install scipy
+    pip install pytesseract
+    pip install pandas
+    pip install scikit-learn
+    pip install lightgbm
+    pip install joblib
     ```
 
 ## Kullanım
