@@ -13,7 +13,6 @@ Bu proje, plakaları tanıyan, deprem tahminleri yapan ve kullanıcı giriş/ç�
   - [Python Servis Kurulumu](#python-servis-kurulumu)
 - [Kullanım](#kullanım)
 - [Proje Yapısı](#proje-yapısı)
-- [Katkıda Bulunma](#katkıda-bulunma)
 - [Lisans](#lisans)
 
 ## Özellikler
@@ -43,13 +42,7 @@ Projeyi yerel makinenize klonladıktan sonra aşağıdaki adımları izleyerek k
     npm install
     ```
 
-2. Ortam değişkenlerinizi ayarlayın:
-
-    ```sh
-    cp .env.example .env
-    ```
-
-3. Server'ı başlatın:
+2. Server'ı başlatın:
 
     ```sh
     npm start
@@ -109,16 +102,6 @@ Projeyi yerel makinenize klonladıktan sonra aşağıdaki adımları izleyerek k
 │   └── ...
 └── README.md
 ```
-
-## Katkıda Bulunma
-
-Katkıda bulunmak isterseniz, lütfen bir pull request gönderin. Her türlü katkı ve geri bildirim değerlidir.
-
-1. Fork yapın
-2. Yeni bir dal oluşturun (`git checkout -b yeni-ozellik`)
-3. Değişikliklerinizi yapın ve commit edin (`git commit -am 'Yeni özellik ekle'`)
-4. Dalınıza push yapın (`git push origin yeni-ozellik`)
-5. Bir pull request açın
 
 ## Lisans
 
