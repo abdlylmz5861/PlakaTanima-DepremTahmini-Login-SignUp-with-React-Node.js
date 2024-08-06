@@ -1,1 +1,1 @@
-# PlakaTanima-DepremTahmini-Login-SignUp-with-React-Node-Python.js
+# PlakaTanima-DepremTahmini-Login-SignUp-with-React-Node.js-Python
