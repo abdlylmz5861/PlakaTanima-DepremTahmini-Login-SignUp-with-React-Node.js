@@ -13,7 +13,6 @@ Bu proje, plakaları tanıyan, deprem tahminleri yapan ve kullanıcı giriş/ç�
   - [Python Servis Kurulumu](#python-servis-kurulumu)
 - [Kullanım](#kullanım)
 - [Proje Yapısı](#proje-yapısı)
-- [Lisans](#lisans)
 
 ## Özellikler
 
@@ -105,6 +104,3 @@ Projeyi yerel makinenize klonladıktan sonra aşağıdaki adımları izleyerek k
 └── README.md
 ```
 
-## Lisans
-
-Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakabilirsiniz.
