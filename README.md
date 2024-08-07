@@ -47,6 +47,7 @@ Projeyi yerel makinenize klonladıktan sonra aşağıdaki adımları izleyerek k
     ```sh
     cd server
     npm install
+    npm install multer
     ```
 
 2. Server'ı başlatın:
