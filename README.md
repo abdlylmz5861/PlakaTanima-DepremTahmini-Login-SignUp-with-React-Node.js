@@ -76,7 +76,7 @@ Projeyi yerel makinenize klonladıktan sonra aşağıdaki adımları izleyerek k
 1. Gerekli paketleri yükleyin:
 
     ```sh
-    pip install opencv-python-headless
+    pip install opencv-python
     pip install numpy
     pip install scipy
     pip install pytesseract
